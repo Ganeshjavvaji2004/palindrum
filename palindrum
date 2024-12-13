@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+    int p=0,rem,n;
+    printf("enter the n value:");
+    scanf("%d",&n);
+    while(n>0)
+{
+    rem=n%10;
+    p=p+rem;
+    n=n/10;
+}
+    
+}
